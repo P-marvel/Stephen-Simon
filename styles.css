@@ -131,9 +131,7 @@ footer {
 .button:hover {
     background-color: #055bb5;
 }
-video{
-    width: 100%;
-}
+
 
 @media (max-width: 768px) {
     header h1 {
@@ -161,6 +159,9 @@ video{
     .container {
         width: 95%;
     }
+    #youtubee{
+        
+    }
 }
 #founder{
     text-align: center;
@@ -171,7 +172,26 @@ video{
 #youtube:hover{
     color: red;
 }
-#trailer{
+#trailer p{
     text-align: center;
     font-weight: bold;
+    
+}
+.trailer-section iframe{
+    width: 560px;
+    height: 315px;
+}
+@media (max-width: 425px){
+    iframe{
+        width: 100%;
+        height: 150px;
+    }
+}
+
+
+@media (min-width:425px) {
+    iframe{
+        width: 100%;
+        height: 315px;
+    }
 }
